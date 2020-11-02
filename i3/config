@@ -184,4 +184,4 @@ bar {
 exec --no-startup-id fcitx -d
 
 # Set Wallpaper
-exec --no-startup-id /usr/bin/feh --bg-scale /home/yuki/Picture/Wallpaper/linux_filesystem.png
+exec --no-startup-id /usr/bin/feh --bg-fill /home/yuki/Picture/Wallpaper/linux_filesystem.png
