@@ -191,3 +191,6 @@ bindsym $mod+z exec --no-startup-id firefox
 
 # Bind mod+x = spotify
 bindsym $mod+x exec --no-startup-id spotify
+
+# Bind mod+p = Shutdown
+bindsym $mod+p exec shutdown now
