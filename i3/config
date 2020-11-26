@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:Source Code Pro 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -184,4 +184,13 @@ bar {
 exec --no-startup-id fcitx -d
 
 # Set Wallpaper
-exec --no-startup-id /usr/bin/feh --bg-scale /home/yuki/Picture/Wallpaper/vimcmd.jpg
+exec --no-startup-id /usr/bin/feh --bg-fill /home/yuki/Picture/Wallpaper/shisei.jpg
+
+# Bind mod+z = firefox
+bindsym $mod+z exec --no-startup-id firefox
+
+# Bind mod+x = spotify
+bindsym $mod+x exec --no-startup-id spotify
+
+# Bind mod+p = Shutdown
+bindsym $mod+p exec shutdown now

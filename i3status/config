@@ -6,11 +6,17 @@ general {
 
 order += "volume master"
 order += "memory"
+order += "tztime utc"
 order += "tztime local"
 
 
 tztime local {
-        format = "%Y-%m-%d %H:%M:%S"
+        format = "JST %Y-%m-%d %H:%M:%S"
+}
+
+tztime utc {
+        format = "UTC %Y-%m-%d %H:%M:%S"
+        timezone="Etc/UTC"
 }
 
 memory {
