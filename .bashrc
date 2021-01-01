@@ -14,3 +14,10 @@ mymkdcd(){
 }
 
 alias mkdcd=mymkdcd $1
+
+myableton(){
+    cd /home/yuki/.wine/drive_c/ProgramData/Ableton/'Live 10 Lite'/Program
+    wine 'Ableton Live 10 Lite.exe'
+}
+
+alias ableton=myableton
