@@ -203,8 +203,6 @@ bindsym $mod+z exec --no-startup-id firefox
 # Bind mod+x = spotify
 bindsym $mod+x exec --no-startup-id spotify
 
-# Bind mod+p = Shutdown
-bindsym $mod+p exec shutdown now
 
 # set title colors
 # use color setting from https://github.com/altdesktop/i3-style/blob/master/themes/archlinux
@@ -212,3 +210,7 @@ client.focused           #0088CC #0088CC #ffffff #dddddd
 client.focused_inactive  #333333 #333333 #888888 #292d2e
 client.unfocused         #333333 #333333 #888888 #292d2e
 client.urgent            #2f343a #900000 #ffffff #900000
+
+bindsym $mod+o exec playerctl previous
+bindsym $mod+p exec playerctl next
+bindsym $mod+Shift+p exec playerctl play-pause
