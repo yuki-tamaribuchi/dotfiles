@@ -195,7 +195,7 @@ bar {
 exec --no-startup-id fcitx -d
 
 # Set Wallpaper
-exec --no-startup-id /usr/bin/feh --bg-fill /home/yuki/Pictures/wallpaper/tue.jpg 
+exec --no-startup-id /usr/bin/feh --bg-color black
 
 # Bind mod+z = firefox
 bindsym $mod+z exec --no-startup-id firefox
@@ -214,3 +214,7 @@ client.urgent            #2f343a #900000 #ffffff #900000
 bindsym $mod+o exec playerctl previous
 bindsym $mod+p exec playerctl next
 bindsym $mod+Shift+p exec playerctl play-pause
+
+
+#exec dunst
+exec --no-startup-id dunst
