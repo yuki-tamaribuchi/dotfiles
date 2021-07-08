@@ -218,3 +218,6 @@ bindsym $mod+Shift+p exec playerctl play-pause
 
 #exec dunst
 exec --no-startup-id dunst
+
+#exec pasystray
+exec --no-startup-id pasystray

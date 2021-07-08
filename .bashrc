@@ -21,3 +21,5 @@ myableton(){
 }
 
 alias ableton=myableton
+
+export COMPOSE_FILE=docker/docker-compose.development.yml
